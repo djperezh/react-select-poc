@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Header from './header';
+import VersionOne from './reactselectv1';
+import VersionLatest from './reactselectlatest';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('header'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
+ReactDOM.render(<VersionOne />, document.getElementById('versionone'));
+
+ReactDOM.render(<VersionLatest />, document.getElementById('versionlatest'));
+
 serviceWorker.unregister();
