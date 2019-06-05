@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is validating that different versions of "React-Select" library can coexist
 
 ## Available Scripts
 
