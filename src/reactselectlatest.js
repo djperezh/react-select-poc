@@ -1,5 +1,6 @@
 import React from 'react';
-import Select from 'react-select-latest';
+// import Select from 'react-select-v3';
+import Select from 'react-select';
 import { colourOptions } from './data/data';
 import 'react-select/dist/react-select.css';
 import './App.css';

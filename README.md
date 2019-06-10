@@ -2,12 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project is validating that different versions of "React-Select" library can coexist.
 In order to do that, you need to run the following commands (using yarn):
 
-### `yarn add react-select@1.2.1`
-### `yarn add react-select-latest@npm:react-select@latest`
+### `npm i react-select@1.2.1`
+### `npm i react-select-v3@npm:react-select@latest`
 
 Hot to use them in your code:
 ### `import SelectVersionOne from 'react-select'; // v1`
-### `import SelectLatest from 'react-select-latest'; // latest`
+### `import SelectLatest from 'react-select-v3'; // latest`
 
 
 ## Available Scripts
