@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "create-react-class": "^15.6.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "react-select": "1.2.1",
-    "react-select-v3": "npm:react-select@^3.0.4"
+    "react-select-v2": "npm:react-select@^2.4.4"
   },
   "scripts": {
     "start": "react-scripts start",
